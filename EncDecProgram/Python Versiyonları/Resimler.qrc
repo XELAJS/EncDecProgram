@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="mesajİcon">
+    <file>icons8-send-48.png</file>
+  </qresource>
+  <qresource prefix="MainBackground">
+    <file>DigitalBackground.jpg</file>
+  </qresource>
+  <qresource prefix="EncDec Background">
+    <file>encrypDecryptBackgroudn.jpg</file>
+  </qresource>
+  <qresource prefix="Button">
+    <file>BINARY_MAIN_preview.jpg</file>
+  </qresource>
+</RCC>

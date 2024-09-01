@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainScreen</class>
+ <widget class="QWidget" name="MainScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1086</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#MainScreen{
+background-image: url(:/MainBackground/DigitalBackground.jpg);
+}</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1091</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#frame{
+border-image: url(:/MainBackground/DigitalBackground.jpg);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_EncryptionS">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>110</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 127);
+background-color: qlineargradient(spread:pad, x1:0.955, y1:0.943182, x2:0.011, y2:0.977273, stop:0 rgba(0, 120, 200, 255), stop:1 rgba(255, 255, 255, 255));
+font: 87 14pt &quot;Segoe UI Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>TEXT ENCRYPTION</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2_DecryptionS">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>180</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 127);
+background-color: qlineargradient(spread:pad, x1:0, y1:0.028, x2:1, y2:0, stop:0 rgba(16, 122, 255, 255), stop:1 rgba(255, 255, 255, 255));
+font: 87 14pt &quot;Segoe UI Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>TEXT DECRYPTION</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2_ImageDEC">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>320</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 127);
+background-color: qlineargradient(spread:pad, x1:0, y1:0.028, x2:1, y2:0, stop:0 rgba(16, 122, 255, 255), stop:1 rgba(255, 255, 255, 255));
+font: 87 14pt &quot;Segoe UI Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>IMAGE DECRYPTION</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ImageENC">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>250</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 127);
+background-color: qlineargradient(spread:pad, x1:0.955, y1:0.943182, x2:0.011, y2:0.977273, stop:0 rgba(0, 120, 200, 255), stop:1 rgba(255, 255, 255, 255));
+font: 87 14pt &quot;Segoe UI Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>IMAGE ENCRYPTION</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Python Versiyonları/Resimler.qrc"/>
+ </resources>
+ <connections/>
+</ui>
